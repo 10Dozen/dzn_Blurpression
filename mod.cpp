@@ -1,0 +1,9 @@
+name = "dzn Blurpression";
+actionName = "WEBSITE";
+action = "";
+tooltip = "dzn Blurpression";
+author = "10Dozen";
+overview = "dzn Blurpression - Version 0.1. Blurry Suppression effect!";
+logo = "mod.paa";
+logoOver = "mod.paa";
+overviewPicture = "mod.paa";

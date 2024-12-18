@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="dzn_Blurpression">
+	<Package name="dzn_Blurpression">
+		<!--
+			Credits:
+			10Dozen (English, Russian)
+		-->
+
+		<Container name="Settings">
+			<!-- SETTINGS -->
+			<Key ID="STR_Blurpression_Setting_Enabled">
+				<Original>Enabled</Original>
+				<Russian>Включено</Russian>
+			</Key>
+			<Key ID="STR_Blurpression_Setting_Enabled_desc">
+				<Original>Enables blurpression effect</Original>
+				<Russian>Включает эффект подавления</Russian>
+			</Key>
+
+			<Key ID="STR_Blurpression_Setting_EnabledInVehicles">
+				<Original>Enabled in vehicles</Original>
+				<Russian>Включено в машинах</Russian>
+			</Key>
+			<Key ID="STR_Blurpression_Setting_EnabledInVehicles_desc">
+				<Original>Enables light blurpression effect while in vehicle</Original>
+				<Russian>Включает легкий эффект подавления внутри машины</Russian>
+			</Key>
+
+			<Key ID="STR_Blurpression_Setting_MaxDistance">
+				<Original>Max distance (m)</Original>
+				<Russian>Макс. дистанция (м)</Russian>
+			</Key>
+			<Key ID="STR_Blurpression_Setting_MaxDistance_desc">
+				<Original>Distance to passed-by projectile that counts as suppression. Game handles supression distance by itself, this setting allows only to limit distance that triggers blurpression effect.</Original>
+				<Russian>Дистанция до пролетающего снаряда которая может спровоцировать подавление. Игра самостоятельно определяет какой снаряд и на какой дистанции будет "подавлять", эта настройка позволяет только ограничить дистанцию для отображения эффекта.</Russian>
+			</Key>
+
+			<Key ID="STR_Blurpression_Setting_Power">
+				<Original>Supression power</Original>
+				<Russian>Сила эффекта</Russian>
+			</Key>
+			<Key ID="STR_Blurpression_Setting_Power_desc">
+				<Original>More powerful effect makes vision area more narrow.</Original>
+				<Russian>Более сильный эффект сужает поле видимости больше.</Russian>
+			</Key>
+
+			<Key ID="STR_Blurpression_Setting_Duration">
+				<Original>Supression duration</Original>
+				<Russian>Длительность эффекта</Russian>
+			</Key>
+			<Key ID="STR_Blurpression_Setting_Duration_desc">
+				<Original>How long it takes to ease suppression effect.</Original>
+				<Russian>Как долго сохраняется действие эффекта.</Russian>
+			</Key>
+
+			<!-- Dropdown options -->
+			<Key ID="STR_Blurpression_Setting_PowerLight">
+				<Original>Light</Original>
+				<Russian>Легкий</Russian>
+			</Key>
+			<Key ID="STR_Blurpression_Setting_PowerNormal">
+				<Original>Normal</Original>
+				<Russian>Обычный</Russian>
+			</Key>
+			<Key ID="STR_Blurpression_Setting_PowerHard">
+				<Original>Hard</Original>
+				<Russian>Сильный</Russian>
+			</Key>
+
+			<Key ID="STR_Blurpression_Setting_DurationShort">
+				<Original>Short</Original>
+				<Russian>Маленькая</Russian>
+			</Key>
+			<Key ID="STR_Blurpression_Setting_DurationNormal">
+				<Original>Normal</Original>
+				<Russian>Обычная</Russian>
+			</Key>
+			<Key ID="STR_Blurpression_Setting_DurationLong">
+				<Original>Long</Original>
+				<Russian>Большая</Russian>
+			</Key>
+		</Container>
+	</Package>
+</Project>
